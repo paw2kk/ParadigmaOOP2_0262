@@ -24,5 +24,8 @@ class lia : public seseorang {
 };
 
 int main(){
+    seseorang* obye;
+    joko a;
+    lia;
 
 }
