@@ -24,8 +24,12 @@ class lia : public seseorang {
 };
 
 int main(){
-    seseorang* obye;
+    seseorang* obyek;
     joko a;
     lia;
 
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
 }
